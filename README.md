@@ -1,12 +1,17 @@
 # empathy-and-hope
 
-Repository for [TODO].
+Repository for [Empathy and Hope: Resource Transfer to Model Inter-country Social Media Dynamics](https://arxiv.org/abs/2106.12044).
 
-You may find our data in `empathy_and_hope_data.csv`. The file contains the following information:
+`tweets_with_prob.csv` contains the following information:
 * `tweet_id`: Twitter id
-* `prob_hopespeech`: Probability of hopespeech 
+* `prob_hopespeech`: Probability of hopespeech
 * `prob_empathy_distress`: Probability of empathy-distress
 
-Any tweets with missing probability are the ones with less than 10 token length after preprocessing.
+`supportive_annotation.csv` contains the following information:
+* `tweet_id`: Twitter id
+* `annotation1`: Annotation by first annotator
+* `annotation2`: Annotation by secone annotator
+* `annotation3`: Annotation by third annotator
+* `final_annotation`: majority vote of the three annotations
 
 Please consider citing this paper if you find our work useful.
